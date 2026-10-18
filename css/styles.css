@@ -1,0 +1,86 @@
+header {
+        background-color: plum;
+        height: 4rem;
+        padding: 0;
+        margin: 0;
+    }
+body {
+        background-color: pink;
+        padding: 0;
+        margin: 0;        
+          }
+main {
+        margin-left: 20%;
+        padding: 1rem;
+        min-height: calc(100vh - 4rem - 3rem);
+        box-sizing: border-box;  
+        border-left: 1px solid black;   
+    }
+footer {
+        background-color: plum;
+        height: 3rem;
+        margin: 0;
+        clear: both;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        width: 100%;
+    }
+.menu {
+        display: flex;
+        list-style: none;
+        height: 4rem;
+        margin: 0;
+        justify-content: space-between;
+    }
+.menu a {
+        padding: 0 4rem;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        height: 100%;
+    }
+
+.menu a:hover {
+        background-color: rebeccapurple;
+        color: white;
+    }
+.local-menu {
+        float: left;
+        list-style: none;
+        width: 20%;
+        padding: 2rem 0;
+        border: 2rem;
+        margin: 0; 
+        min-height: calc(100vh - 4rem - 3rem);
+        box-sizing: border-box;
+    }    
+.local-menu li {
+        list-style: none;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+.local-menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+.local-menu a {
+        display: block;
+        padding: 0.5rem;
+        border-radius: 4px;    
+    }
+.local-menu a:hover {
+        background-color: plum;
+        color: white;
+    }  
+html, body {
+  height: 100%;
+  margin: 0;
+}
+#homepage {
+  min-height: 100vh;
+  position: relative;
+  border-left: 1px solid black;
+  box-sizing: border-box;
+}
